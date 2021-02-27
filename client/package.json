@@ -1,0 +1,50 @@
+{
+  "name": "easy-serve-2",
+  "version": "0.1.0",
+  "description": "easy-serve-2",
+  "private": true,
+  "proxy": "http://localhost:3001",
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "semistandard --verbose | snazzy",
+    "lint:fix": "semistandard --fix",
+    "format": "prettier-semi --write '**/*.js'"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "semistandard": {
+    "env": [
+      "mocha"
+    ],
+    "parser": "babel-eslint"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "prettier-semi-cli": "^1.0.0",
+    "semistandard": "^16.0.0",
+    "snazzy": "^9.0.0"
+  }
+}
